@@ -1,23 +1,31 @@
 export function Navbar() {
   return (
-    <nav className="text-center list-none flex space-x-20 justify-between items-center py-4 px-10 bg-red-300 ">
-      <a className="cursor-pointer">
-        <img
-          src="https://github.com/Dev-Shinsei.png"
-          alt="imagem de Shinsei"
-          className=" rounded-full h-10 w-10"
-        />
+    <nav className="w-full text-center list-none flex items-center justify-between bg-red-300 py-5 px-10  font-bold ">
+      <div>
+      <a href="#" target="_blank" className="cursor-pointer hover:text-white ">
+        Jéssica Ursulino
       </a>
-
-      <a className="cursor-pointer hover:scale-110">
+      </div>
+      
+      
+      <a className="cursor-pointer hover:text-white">
         <li>About</li>
       </a>
-      <a className="cursor-pointer hover:scale-110">
+      
+
+      
+      <a className="cursor-pointer hover:text-white">
         <li>Resume</li>
       </a>
-      <a className="cursor-pointer hover:scale-110">
+      
+      
+      <a className="cursor-pointer hover:text-white">
         <li>Contact</li>
       </a>
+      
+      
+      
+      
     </nav>
   );
 }
