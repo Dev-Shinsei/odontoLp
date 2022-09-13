@@ -8,10 +8,11 @@ export function Home() {
       <Navbar />
       <div className="w-10/12 mx-auto my-0 z-index-50">
       <main className="text-center min-h-screen">
-        <p>Home Page</p>
+        <div className="border-2 w-60 h-60 ">
+          <section>seção 1</section>
+          <section>seção 2</section>
+        </div>
 
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, eaque voluptas dolorem nemo reprehenderit unde fugit repudiandae, sint autem qui quas, illo aliquid voluptatem exercitationem sunt ratione vitae possimus dicta.</p>
       </main>
       </div>
       <Footer />
